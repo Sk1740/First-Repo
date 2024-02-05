@@ -1,0 +1,67 @@
+
+#shibu {
+    color: blueviolet;
+    text-align: left;
+    font-family: "Rubik Glitch Pop", system-ui;
+}
+.bu {
+    color: darkcyan;
+    text-align:right ;
+    font-family: "Rubik Glitch Pop", system-ui;
+}
+
+article p {
+    color: coral;
+    font-family: 'Honk', system-ui;
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+nav>ul {
+color: brown;
+}
+
+h2+p {
+ color: chartreuse;
+}
+h3~p {
+    color: hotpink;
+}
+#new {
+    color: cornflowerblue;
+    text-align: right;
+    font-family: 'Honk', system-ui;
+font-family: 'Rubik Glitch Pop', system-ui;
+    
+}
+.hi {
+    color:red;
+    text-align:left;
+
+}
+#hey {
+    color:#42052a !important;
+    color:rgba(rgb(255, 0, 0));
+    color:antiquewhite;
+    font-family: 'Honk', system-ui;
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+body{
+    background-image: url('susanne-feldt-SIoHky3TPeo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;  
+    
+}
+#Thursday {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 12px;
+    word-spacing: 1px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform:lowercase;
+    
+}

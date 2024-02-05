@@ -1,79 +1,88 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Day2</title>
+    <title>Day5</title>
     <meta charset="UTF-8">
 </head>
 <body>
-<h1>Welcome to HTMl test</h1>
+    <nav>
+        <a href="New.html">Home</a>
+        <a href="Bio.html">BIO</a>
+        <a href="MIne.html">About me</a>
+        
+    </nav>
+<h1>Welcome to HTMl form</h1>
 
-<p>Web pages can <s>be created</s> and <b>modified</b> by using <i>professional<ins>HTML</ins>editors</i>.
- However, for learning HTML<blockquote>we recommend <del>a simple</del> text editor</blockquote>like <q>Notepad</q> (PC) or TextEdit (Mac).
-    We believe that using a simple text editor is a <strong>good way</strong> to learn HTMl <abbr title= "shibu">Coder</abbr>
-    Follow the steps <em>below</em> to create<sub>your first web page </sub> with <sup>Notepad or TextEdit.</sup>
-    <cronym title="isro">ISRO</cronym></p>
-<p id="first">
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, 
-    or randomised words which don't look even slightly believable. 
-    If you are going to use a passage of Lorem Ipsum,
-     you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem 
-     Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
-     making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, 
-     combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-    The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
-<a href="#second">Go to second chapter</a>
+<form>
+   
+<label for="username">Enter the username</label>
+<input type="text"id="username"name="name of the user"placeholder="enter the name"><br>
 
-    <address>
-        <p>
-        <abbr title="shibu's house">No:5/1 Anna veethi 1st street Mgr nagar</abbr><br>
-        chennai-600078
-    </address>
-       </p>
-       <p>
-        price :<s>100</s>50
-       </p>
-       <p>
-        price:<del>1000</del>1500
-       </p>
-       <p>
-        price:<ins>198</ins>178
-       </p>
-       <img src="https://picsum.photos/200/300" alt="goatimage">
-       <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-       <a href="https://www.instagram.com/"target="">insta</a>
-       <a href="mailto:shibukumar1740@gmail.com">Send mail</a>
-       <p id="second">
-        What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<label for="password">To enter fill password</label>
+<input type="password"id="password"name="password"placeholder="Pwd"><br>
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<label for="email">Enter your mail id</label>
+<input type="email"id="email"name="email"placeholder="enter the mail"><br>
 
+<label for="gender">Gender</label><br>
+<input type="radio"name="gender"value="male">Male<br>
+<input type="radio"name="gender"value="Female">Female<br>
+<input type="radio"name="gender"value="trans">Trans<br>
 
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
- </p>
- <a href="#first">Go to first chapter</a>
-       <ol>
-        <li>Flower</li><ul>
-        <li>rose</li>
-        <li></li>
-    </ul>
-        <li>4</li>
-        <li>5</li>
-       </ol>
-       <ul>
-        <li>veggies</li>
-        <li>mango</li>
-        <li>apple</li>
-        <li>pine apple</li>
-       </ul>
-<dl>
-    <dt>hello</dt>
-    <dd>testing</dd>
-</dl>
+<label for="phonenumber">Phone number</label>
+<input type="number"id="phonenumber"name="contactnumber"placeholder="Mobile number"><br>
+
+<label for="ShibuDropdown">New dropdown</label>
+<select id="ShibuDropdown" name="ShibuDropdown">
+<option value="option1">Cricket</option>
+<option value="option2">Badminton</option>
+<option value="option3">Volly ball</option>
+<option value="option4">Video Games</option>
+</select>
+<label for="checkbox">New checkbox</label>
+<input type="checkbox"id="checkbox"name="checkbox">Kindly click me to check<br>
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob"><br>
+<!-- need to upload files -->
+<label for="file">Upload File:</label>
+<input type="file" id="file" name="file"><br>
+<label for="textarea">Type the concern</label><br>
+<textarea id="textarea"name="newtext"placeholder="write here"></textarea><br>
+
+<input type="submit"name="submit">
+</form>
+<table border="2">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>age</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td>shibu</td>
+    <td>23</td>
+    <td>shibukumar1740@gmal.com</td>
+</tr>
+<tr>
+    <td>soorya</td>
+    <td>24</td>
+    <td>Soorya11740@gmal.com</td>
+</tr>
+<tr>
+    <td>Karan</td>
+    <td>23</td>
+    <td>Karanharry@gmal.com</td>
+</tr>
 
 
+    </tbody>
+</table>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PwwQX7S3rio?si=-DP9Ma4hHejmQq8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </body>
 
+</html>

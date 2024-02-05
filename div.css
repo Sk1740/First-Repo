@@ -1,0 +1,39 @@
+.sunday {
+    color: blue;
+    height: 200px;
+    width: 350px;
+    text-align:center;
+    min-width:350px;
+    max-width:450px ;
+    min-height:150px;
+    max-height:250px;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 25px;
+    overflow:hidden;
+}
+.saturday {
+    color: rgb(255, 0, 0);
+    height:150px;
+    width:250px;
+    padding-top:50px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom:50px;
+    border-style:solid;
+    border-color:chartreuse;
+    border-width: 5px;
+    border-radius: 125px;
+    overflow:Scroll;
+}
+.maths {
+    color: rgb(0, 8, 255);
+    height:150px;
+    width:250px;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:50px;
+    margin-right:10px ;
+
+}
